@@ -22,6 +22,20 @@ body {
         background-image: url(./flags/bahrain.png);
         background-size: 100%;
     }
+    
+    .saudi {
+        background-image: url(./flags/saudi.png);
+        background-size: 100%;
+    }
+    
+    .japan {
+        background-image: url(./flags/japan.png);
+        background-size: 100%;
+    }
+    .china {
+        background-image: url(./flags/china.png);
+        background-size: 100%;
+    }
 
 
 }
