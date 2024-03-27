@@ -17,24 +17,135 @@ body {
     table {
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-weight: 700;
+        text-decoration-line: border;
+        text-decoration-color: white;
+        width: 2300px;
+        height: 1500px;
     }
-    .bahrain {
+    .Bahrain {
         background-image: url(./flags/bahrain.png);
         background-size: 100%;
+        background-position: center;
     }
     
-    .saudi {
+    .Saudi {
         background-image: url(./flags/saudi.png);
         background-size: 100%;
+        background-position: center;
+        background-blend-mode: lighten;
+    }
+    .Saudi span{
+        background-color: white; opacity: .5;
+        
     }
     
-    .japan {
+    .Australia {
+        background-image: url(./flags/australia.png);
+        background-size: 100%;
+        background-position: center;
+    }
+    .Japan {
         background-image: url(./flags/japan.png);
         background-size: 100%;
+        background-position: center;
     }
-    .china {
+    .China {
         background-image: url(./flags/china.png);
         background-size: 100%;
+        background-position: center;
+    }
+    .usa {
+        background-image: url(./flags/usa.png);
+        background-size: 100%;
+        background-position: center;
+    }
+    
+    .Italy {
+        background-image: url(./flags/italy.png);
+        background-size: 100%;
+        background-position: center;
+        width: 600px;
+    }
+    
+    .Monaco {
+        background-image: url(./flags/monaco.png);
+        background-size: 100%;
+        background-position: center;
+    }
+    .Canada {
+        background-image: url(./flags/canada.png);
+        background-size: 100%;
+        background-position: center;
+    }
+    .Spain {
+        background-image: url(./flags/spain.png);
+        background-size: 100%;
+        background-position: center;
+    }
+    
+    .Austria {
+        background-image: url(./flags/austria.png);
+        background-size: 100%;
+        background-position: center;
+    }
+    
+    .Britain {
+        background-image: url(./flags/uk.png);
+        background-size: 100%;
+        background-position: center;
+    }
+    .Hungary {
+        background-image: url(./flags/hungary.png);
+        background-size: 100%;
+        background-position: center;
+    }
+    .Belgium {
+        background-image: url(./flags/belgium.png);
+        background-size: 100%;
+        background-position: center;
+        
+    }
+    
+    .Netherlands {
+        background-image: url(./flags/nehterlands.png);
+        background-size: 100%;
+        background-position: center;
+    }
+    
+    .Azerbaijan {
+        background-image: url(./flags/azerbaijan.png);
+        background-size: 100%;
+        background-position: center;
+    }
+    .Singapore {
+        background-image: url(./flags/singapore.png);
+        background-size: 100%;
+        background-position: center;
+    }
+    .Mexico {
+        background-image: url(./flags/mexico.jpg);
+        background-size: 100%;
+        background-position: center;
+    }
+    
+    .Brazil {
+        background-image: url(./flags/brazil.png);
+        background-size: 100%;
+        background-position: center;
+    }
+    
+    .Qatar {
+        background-image: url(./flags/qatar.png);
+        background-size: 100%;
+        background-position: center;
+    }
+    .uae {
+        background-image: url(./flags/uae.png);
+        background-size: 100%;
+        background-position: center;
+    }
+    table:after {
+        opacity: 50%;
     }
 
 
